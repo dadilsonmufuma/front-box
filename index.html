@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontBox</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <script src="acao.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu-bg">
+            <nav class=" menu">
+                <div class="menu_logo">
+                    <a href="index.html"><img src="./img/logo.png" alt=""></a>
+                </div><!-- fim do menu logo -->
+                <div class="nav">
+                    <ul class="nav_lista">
+                        <li class="nav-item"><a href="#somos" class="nav_link">Quem somos</a></li>
+                        <li class="nav-item"><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
+                        <li class="nav-item"><a href="#planos" class="nav_link">Planos</a></li>
+                        <li class="nav-item"><a href="#vantagens" class="nav_link">Vantagens</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <buttom onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></buttom>
+                </div>
+            </nav>
+
+            <div class="mobile-menu">
+                 <ul>
+                    <li class="nav-item"><a href="#somos" class="nav-link">Quem Somos</a></li>
+                    <li class="nav-item"><a href="#cursos" class="nav-link">Nossos Cursos</a></li>
+                    <li class="nav-item"><a href="#planos" class="nav-link">Planos</a></li>
+                    <li class="nav-item"><a href="#vantagem" class="nav-link">Vantagem</a></li>
+                 </ul>
+            </div>
+        </div>
+        <h1 class="intro">Aprende a programar, <br/>um projecto por vez!</h1>
+        <hr>
+    </header>
+
+    <section class="somos" id="somos">
+        <h2 class="sessao_titulo">Quem somos</h2>
+        <div class="somos_corpo">
+            <div class="somos_texto">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <br>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+
+            <div class="somos_imagem">
+                <img src="./img/somos.png" alt="Quem somos">
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo">Nossos Cursos</h2>
+        <div class="curso_corpo">
+            <div class="curso">
+                <img src="img/ai.png" alt="Inteligência Artificial" class="curso__img">
+                <h3 class="curso__titulo">Inteligência Artificial</h3>
+                <p class="curso__descricao">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div>
+
+            <div class="curso">
+                <img src="img/front.png" alt="Frontend" class="curso__img">
+                <h3 class="curso__titulo">Frontend</h3>
+                <p class="curso__descricao">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div>
+
+            <div class="curso">
+                <img src="img/seguranca.png" alt="Segurança da Informação" class="curso__img">
+                <h3 class="curso__titulo">Segurança da Informação</h3>
+                <p class="curso__descricao">
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div>
+        </div> 
+        <hr>
+    </section>
+
+    <section class="planos" id="planos">
+        <h2 class="sessao_titulo">Planos</h2>
+        <div class="planos_corpo">
+            <div class="plano basico">
+                <h2 class="plano__titulo">Básico</h2>
+                <span class="plano__preco"><sup>KZ</sup>25</span>
+                <hr class="plano__divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista__item">Acesso a todos os cursos</li>
+                    <li class="plano-lista__item">Certificado de conclusão</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+
+            <div class="plano premium">
+                <h2 class="plano__titulo">Premium</h2>
+                <span class="plano__preco"><sup>KZ</sup>55</span>
+                <hr class="plano__divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista__item">Acesso a todos os cursos</li>
+                    <li class="plano-lista__item">Certificado de conclusão</li>
+                    <li class="plano-lista__item">Suporte</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+
+            <div class="plano ultra">
+                <h2 class="plano__titulo">Ultra</h2>
+                <span class="plano__preco"><sup>KZ</sup>85</span>
+                <hr class="plano__divisor">
+                <ul class="plano-lista">
+                    <li class="plano-lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano-lista__item">Acesso a todos os cursos</li>
+                    <li class="plano-lista__item">Certificado de conclusão</li>
+                    <li class="plano-lista__item">Suporte</li>
+                    <li class="plano-lista__item">Download das aulas</li>
+                </ul>
+                <a href="#" class="plano__btn-comprar">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+
+            <h2 class="vantagem__titulo">Foco em Projecto</h2>
+            <p class="vantagem__descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt amet esse earum sint enim expedita repellat, veniam iste, facilis nulla animi vero. Consectetur, eius fuga quae esse porro natus.
+            </p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em Projecto</h2>
+            <p class="vantagem__descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt amet esse earum sint enim expedita repellat, veniam iste, facilis nulla animi vero. Consectetur, eius fuga quae esse porro natus.
+            </p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em Projecto</h2>
+            <p class="vantagem__descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt amet esse earum sint enim expedita repellat, veniam iste, facilis nulla animi vero. Consectetur, eius fuga quae esse porro natus.
+            </p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em Projecto</h2>
+            <p class="vantagem__descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt amet esse earum sint enim expedita repellat, veniam iste, facilis nulla animi vero. Consectetur, eius fuga quae esse porro natus.
+            </p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em Projecto</h2>
+            <p class="vantagem__descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt amet esse earum sint enim expedita repellat, veniam iste, facilis nulla animi vero. Consectetur, eius fuga quae esse porro natus.
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em Projecto</h2>
+            <p class="vantagem__descricao">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nesciunt amet esse earum sint enim expedita repellat, veniam iste, facilis nulla animi vero. Consectetur, eius fuga quae esse porro natus.
+            </p>
+    </section>
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+                <h2 class="newsletter-info__titulo">newsletter</h2>
+                <p class="newsletter-info__descricao"> Assine e fique por dentro das novidades
+                </p>
+            </div>
+
+            <form action="" class="newsletter-form">
+                <input type="text" placeholder="seu e-mail" class="newsletter-form_input">
+                <button type="submit" class="newsletter-form_submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">
+            Todos os direitos reservados a Dadilson de Oliveira Mufuma @2023
+        </p>
+
+        <a href="index.html">
+            <img src="img/logo.png" alt="Frontbox" class="footer__logo">
+        </a>
+    </footer>
+</body>
+</html>
